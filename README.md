@@ -18,7 +18,4 @@ docker run -d --name atrust --privileged --net=host atrust
 
 ### 附：
 
-可参考Distrobox运行环境
-
-[README-Distrobox.md]: README-Distrobox.md
-
+可参考[Distrobox](README-Distrobox.md)运行环境

@@ -14,6 +14,8 @@ docker run -d --name atrust --privileged --net=host atrust
 
 运行后docker中的atrust会在宿主机生成TUN网关，然后接管内网ip代理
 
+通过VNC的5901端口访问登录atrust即可
+
 > 宿主机需要用`ip a`来查看是否有utun网卡，同时可以用ip route看是否有路由接管
 
 ### 附：
